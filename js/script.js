@@ -31,8 +31,15 @@ const emailList = [
     'donato@boolean.it',
     'giada@boolean.it',
     'alberto.voxpopuli@boolean.it',
-]
+];
 // % Chiedo all'utente di inserire la sua e-mail in un input
+const userEmail = document.getElementById(userInputEmail);
+
 // % Verifico che l'e-mail inserita faccia parte della lista
+const loginCheckButton = document.getElementById(loginCheckButton);
+loginCheckButton.addEventListener ('click', function() {
+    
+})
+
 // % Stampo messaggio di accesso, consentito o negato in base ai casi
 
