@@ -6,8 +6,20 @@ h1 {
     align-items: center;
 }
 
-#result {
+#userResult {
     height: 62px;
     width: 216px;
     background-color: #0b5ed7;
+}
+
+#ComputerResult {
+    height: 62px;
+    width: 216px;
+    background-color: #0b5ed7;
+}
+
+#gameResult {
+    height: 62px;
+    width: 216px;
+    background-color: #ffb71c;
 }
