@@ -38,16 +38,25 @@ const userEmail = document.getElementById('userInputEmail');
 // % Verifico che l'e-mail inserita faccia parte della lista
 const loginCheckButton = document.getElementById('loginCheckButton');
 
+let checkConfirmed = false;
+
 loginCheckButton.addEventListener ('click', function() {
+
     for (let i = 0; i < emailList.length; i++ ) {
         if (userEmail.value == emailList[i]) {
-            console.log('Accesso consentito!')
-        }
-        else if (( i == (emailList.length - 1)) && (userEmail.value != emailList[emailList.length - 1])) {
-            console.log('Accesso negato!')
+            checkConfirmed = true;
         }
     }
+
+    if ( checkConfirmed == true ) {
+        console.log('Accesso consentito!');
+    }
+    else {
+        console.log('Accesso negato!');
+    }
 })
+
+
 
 // % Stampo messaggio di accesso, consentito o negato in base ai casi
 
