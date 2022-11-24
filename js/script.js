@@ -23,6 +23,15 @@ else if (userRandomSixDiceResult === computerRandomSixDiceResult) {
 
 // % Mail
     // % creo un array di email
+const emailList = [
+    'pinco@pallo.it',
+    'riccardo@boolean.it',
+    'luigi@boolean.it',
+    'stefano@boolean.it',
+    'donato@boolean.it',
+    'giada@boolean.it',
+    'alberto.voxpopuli@boolean.it',
+]
 // % Chiedo all'utente di inserire la sua e-mail in un input
 // % Verifico che l'e-mail inserita faccia parte della lista
 // % Stampo messaggio di accesso, consentito o negato in base ai casi
