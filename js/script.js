@@ -3,7 +3,7 @@ console.log('Hello World!');
 // $ Gioco dei dadi
 
 // $ Genero un numero random da 1 a 6 per il giocatore
-console.log(Math.floor((Math.random() * 6) + 1));
+const randomSixDiceResult(Math.floor((Math.random() * 6) + 1));
 
 
 // $ Genero un numero random da 1 a 6 per il computer
