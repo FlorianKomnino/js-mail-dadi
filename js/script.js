@@ -38,9 +38,10 @@ const userEmail = document.getElementById('userInputEmail');
 // % Verifico che l'e-mail inserita faccia parte della lista
 const loginCheckButton = document.getElementById('loginCheckButton');
 
-let checkConfirmed = false;
 
 loginCheckButton.addEventListener ('click', function() {
+    
+    let checkConfirmed = false;
 
     for (let i = 0; i < emailList.length; i++ ) {
         if (userEmail.value == emailList[i]) {
@@ -48,7 +49,7 @@ loginCheckButton.addEventListener ('click', function() {
         }
     }
 
-    if ( checkConfirmed == true ) {
+    if ( checkConfirmed ) {
         console.log('Accesso consentito!');
     }
     else {
