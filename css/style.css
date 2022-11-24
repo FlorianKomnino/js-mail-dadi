@@ -2,7 +2,12 @@ h1 {
     color: red;
 }
 
-.custom-h-100px {
-    height: 100px;
+.custom-align-center {
+    align-items: center;
 }
 
+#result {
+    height: 62px;
+    width: 216px;
+    background-color: #0b5ed7;
+}
