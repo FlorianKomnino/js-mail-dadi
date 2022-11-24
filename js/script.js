@@ -38,7 +38,7 @@ const userEmail = document.getElementById('userInputEmail');
 // % Verifico che l'e-mail inserita faccia parte della lista
 const loginCheckButton = document.getElementById('loginCheckButton');
 loginCheckButton.addEventListener ('click', function() {
-
+    console.log('ciao');
 })
 
 // % Stampo messaggio di accesso, consentito o negato in base ai casi
