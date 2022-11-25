@@ -48,7 +48,8 @@ loginCheckButton.addEventListener ('click', function() {
             checkConfirmed = true;
         }
     }
-
+    
+// % Stampo messaggio di accesso, consentito o negato in base ai casi
     if ( checkConfirmed ) {
         console.log('Accesso consentito!');
     }
@@ -59,5 +60,5 @@ loginCheckButton.addEventListener ('click', function() {
 
 
 
-// % Stampo messaggio di accesso, consentito o negato in base ai casi
+
 
